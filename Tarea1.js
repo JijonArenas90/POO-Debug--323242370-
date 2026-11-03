@@ -8,6 +8,6 @@ class Gato {
     }
 }
 
-
-const miGato = Gato("Pelusa"); 
-miGato.maullar();
+// Se agregó la palabra clave 'new' aquí:
+const miGato = new Gato("Pelusa"); 
+miGato.maullar(); // Salida: Pelusa dice: ¡Miau!
